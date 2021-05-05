@@ -50,11 +50,11 @@ int BJRound(int& remaining_cards)
 int main()
 {
     std::cout << "How to use:\n"
-              << "Each round enter card number (10 for face cards and 1 for ACE)\n";
+              << "Each round enter the cards on the table (10 for face cards and 1 for ACE)\n";
 
     // Number decks.
     int decks = 6;
-    std::cout << "Number of decks.\n";
+    std::cout << "Number of decks:\n";
     std::cin >> decks;
     std::cout << std::endl;
 
